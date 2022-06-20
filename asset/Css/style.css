@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Poppins', sans-serif;
+}
+.p3{
+    font-size: 24px;
+    font-weight: 500;
+}
+.p2{
+    font-size: 28px;
+    font-weight:500;
+}
+.p1{
+    font-size: 32px;
+    font-weight: 600;
+}
