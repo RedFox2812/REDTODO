@@ -33,7 +33,7 @@
     justify-content: right;
     width: 90%;
     position: relative;
-    right: -7%;
+    right: -16px;
 }
 .tabList-item{
     display: flex;
@@ -128,4 +128,25 @@
     transform: translateX(0px);
     animation: activeTabItem 0.2s linear;
     pointer-events: none;
+    position: relative;
+}
+.active::before{
+    border-top: 4px solid #ccc;
+    border-left: 4px solid #ccc;
+    border-bottom:4px solid transparent;
+    border-right:4px solid transparent;
+    content: " ";
+    position: absolute;
+    opacity: 1;
+    animation: activeTabItem-bf 0.2s linear;
+    right: -1px;
+    bottom:-8px;
+}
+@keyframes activeTabItem-bf{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
 }
