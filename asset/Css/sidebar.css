@@ -25,7 +25,6 @@
     justify-content:center;
     flex-direction:column;
     margin-bottom: 10px;
-    
 }
 .sidebar-tabList__top{
     flex: 2;
@@ -45,6 +44,27 @@
     padding: 0 40px 0 10px;
     border-radius: 25px 0px 0px 25px;
     margin: 6px;
+}
+@keyframes activeTabItem{
+    0% {
+        background-color: #fff;
+        color: #000;
+        transform:translateX(-10px);
+    }
+    /* 50%{
+        transform: translateX(20px);
+    } */
+    100% {
+        background-color: #588be3;
+        transform:translateX(0px);
+        color: #fff;
+    }
+    /* 100% {
+        transform: translateX(20px);
+    } */
+}
+.tabList-item *{
+    pointer-events: none;
 }
 .tabList-item i{
     margin-left: 10px;
@@ -100,4 +120,12 @@
     width: 50px;
     height: 50px;
     margin: 0 10px 0 20px;
+}
+.active{
+    pointer-events: none;
+    color: #fff;
+    background-color: #588be3;
+    transform: translateX(0px);
+    animation: activeTabItem 0.2s linear;
+    pointer-events: none;
 }
