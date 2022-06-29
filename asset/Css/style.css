@@ -3,18 +3,10 @@
     border: 0;
     box-sizing: border-box;
 }
-html{
+html, body{
     font-family: 'Poppins', sans-serif;
+    height: 100%;
 }
-.p3{
-    font-size: 24px;
-    font-weight: 500;
-}
-.p2{
-    font-size: 28px;
-    font-weight:500;
-}
-.p1{
-    font-size: 32px;
-    font-weight: 600;
+.main{
+    height: 100%;
 }
