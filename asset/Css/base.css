@@ -1,0 +1,27 @@
+.p3{
+    font-size: 24px;
+}
+.p2{
+    font-size: 28px;
+}
+.p1{
+    font-size: 32px;
+}
+.fw5{
+    font-weight: 500;
+}
+.fw6{
+    font-weight: 600;
+}
+.fw7{
+    font-weight: 700;
+}
+.wf{
+    width: 100%;
+}
+.hf{
+    height: 100%;
+}
+i{
+    margin: 0 20px;
+}
