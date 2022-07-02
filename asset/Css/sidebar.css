@@ -36,6 +36,7 @@
     right: -16px;
 }
 .tabList-item{
+    position: relative;
     display: flex;
     justify-content: left;
     align-items: center;
@@ -44,6 +45,10 @@
     padding: 0 40px 0 10px;
     border-radius: 25px 0px 0px 25px;
     margin: 6px;
+    transition: all 0.25s linear;
+}
+.tabList-item:hover {
+    transform:translateX(-10px);
 }
 @keyframes activeTabItem{
     0% {
@@ -149,4 +154,4 @@
     100%{
         opacity: 1;
     }
-}
+}   
