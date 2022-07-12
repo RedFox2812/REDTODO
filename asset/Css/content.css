@@ -1,0 +1,32 @@
+.content-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.content-header__h1{
+    font-weight: 600;
+    font-size: 38px;
+}
+.content-header__search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    max-width: 740px;
+    border:1px solid #588be3;
+    padding: 10px 20px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.search__icon{
+    font-size: 24px;
+}
+.search__input{
+    font-size: 22px;
+    border:none;
+    outline: none;
+    width: 100%;
+}

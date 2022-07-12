@@ -9,4 +9,15 @@ html, body{
 }
 .main{
     height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#sidebar{
+}
+#content{
+    flex: 2;
+    margin: 10px 50px;
+    display:flex;
+    align-items:center;
+    flex-direction:column;
 }
