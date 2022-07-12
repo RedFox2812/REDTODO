@@ -16,7 +16,7 @@ html, body{
 }
 #content{
     flex: 2;
-    margin: 10px 50px;
+    margin: 20px 50px;
     display:flex;
     align-items:center;
     flex-direction:column;
