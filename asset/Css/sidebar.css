@@ -3,8 +3,10 @@
     align-items:center;
     justify-content:center;
     flex-direction:column;
-    min-width: 290px;
-    height: auto;
+    position: fixed;
+    max-width: 290px;
+    min-height: 100%;
+    height: 100%;
     box-shadow: 1px 0px 15px -5px #588be3;
 }
 
@@ -14,11 +16,13 @@
     align-items: center;
     flex: 1;
     width: 100%;
+    height: 100%;
     /* margin-top: 10px; */
 }
 .sidebar-tabList{
-    flex: 6;
+    flex: 9;
     width: 100%;
+    height: 100%;
     display:flex;
     align-items:center;
     justify-content:center;
@@ -26,7 +30,7 @@
     margin-bottom: 10px;
 }
 .sidebar-tabList__top{
-    flex: 2;
+    /* flex: 3; */
     display:flex;
     flex-direction:column;
     justify-content: right;
@@ -75,12 +79,12 @@
     margin-left: 10px;
 }
 .sidebar-tabList__bottom{
-    flex: 2;
+    /* flex: 7; */
     display:flex;
     align-items:center;
     justify-content:space-around;
     flex-direction:column;
-    width: 90%;
+    width: 100%;
 }
 .tabList-item__bottom{
     padding: 0 16px;
@@ -101,9 +105,8 @@
     margin: 5px 0;
 }
 .member-data{
-    flex: 8;
     width: 100%;
-    margin: 0 20px;
+    margin: 0 0px;
     display:flex;
     align-items:center;
     justify-content:top;
@@ -136,16 +139,16 @@
     position: relative;
 }
 .active::before{
-    border-top: 4px solid #ccc;
-    border-left: 4px solid #ccc;
-    border-bottom:4px solid transparent;
-    border-right:4px solid transparent;
+    border-top: 5px solid #ccc;
+    border-left: 5px solid #ccc;
+    border-bottom:5px solid transparent;
+    border-right:5px solid transparent;
     content: " ";
     position: absolute;
     opacity: 1;
     animation: activeTabItem-bf 0.2s linear;
     right: -1px;
-    bottom:-8px;
+    bottom:-10px;
 }
 @keyframes activeTabItem-bf{
     0%{
@@ -160,7 +163,7 @@
     width: 40px;
     height: 40px;
     display: flex;
-    margin: 0;
+    margin: 10px;
     justify-content: center;
     align-items: center;
     font-size: 20px;
